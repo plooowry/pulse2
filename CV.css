@@ -1,0 +1,253 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+
+
+body {
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+ color: #5a5a5a;
+}
+
+.londonchart {
+    background-color: black;
+
+}
+
+.carasel-text {
+    padding-top: 100em;
+
+}
+
+
+
+
+/*zoom */
+
+* {
+  box-sizing: border-box;
+}
+
+.about_us {
+  padding: 50px;
+  background-color: #d9d9fc;
+  transition: transform .2s;
+  width: 90%;
+  height: 150%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about_us:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.about_us:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+<div class="zoom"></div>
+
+/*  graph  */
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* nav bar */
+
+.navbar-expand-md {
+ background-color: black;
+
+}
+
+.header_line {
+    background-color: white;
+
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/*PULSE ANIMATION*/
+
+
+/* Carousel base class */
+.header_para {
+    padding-top: 1%;
+
+
+}
+
+
+
+
+.carousel {
+ margin-bottom: 2rem;
+
+}
+/* Since positioning the image, we need to help out the caption, use to move bloc */
+.carousel-caption {
+ bottom: 10rem;
+ z-index: 10;
+
+
+
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+ height: 32rem;
+
+}
+.carousel-item > img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ min-width: 100%;
+ height: 32rem;
+
+}
+
+#thinkingid {
+    color: black;
+
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+ margin-bottom: 1.5rem;
+ text-align: center;
+}
+.marketing h2 {
+ font-weight: 400;
+}
+.marketing .col-lg-4 p {
+ margin-right: .75rem;
+ margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+ margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+ font-weight: 300;
+ line-height: 1;
+ letter-spacing: -.05rem;
+}
+
+.roadbloc {
+    background-color: white;
+    color: black;
+
+}
+
+.endbloc {
+ padding-top: 0%;
+
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+ /* Bump up size of carousel content */
+ .carousel-caption p {
+   margin-bottom: 1.25rem;
+   font-size: 1.25rem;
+   line-height: 1.4;
+
+ }
+
+ .featurette-heading {
+   font-size: 50px;
+ }
+}
+
+@media (min-width: 62em) {
+ .featurette-heading {
+   margin-top: 7rem;
+ }
+}
+
+
+
+/*-----------COMMENTS BOX------------*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+    /* GLOBAL STYLES TYPE WRITER ANIMATION */
+    #demo {
+        margin-left: 30em;
+
+    }
+
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter {
+      color: red;
+      font-family: monospace;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation:
+        typing 3.5s steps(30, end),
+        blink-caret .3s step-end 10;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: red }
+    }
